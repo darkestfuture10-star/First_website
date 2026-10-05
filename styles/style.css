@@ -51,30 +51,18 @@ h1
   margin:0;
   border: none;
 }
-#button1:hover
-{
-  background: linear-gradient(to left, gray, lightgray);
-}
-#button1
-{
-  background: linear-gradient(to right, rgb(160, 160, 235), rgb(156, 122, 248));
-  
-}
-#button2:hover
-{
-  background: linear-gradient(to left, gray, lightgray);
-}
-#button2
-{
-  background: linear-gradient(to right, red, rgb(129, 93, 99));
- 
-}
-#button3:hover
-{
-  background: linear-gradient(to left, gray, lightgray);
-}
-#button3
-{
-  background: linear-gradient(to right, blue, rgb(169, 167, 250));
+.button1 {
+    background: linear-gradient(to right, rgb(160, 160, 235), rgb(247, 87, 225));
 }
 
+.button2 {
+    background: linear-gradient(to right, red, rgb(129, 93, 99));
+}
+
+.button3 {
+    background: linear-gradient(to right, blue, rgb(169, 167, 250));
+}
+
+.button:hover {
+    background: linear-gradient(to left, gray, lightgray);
+}
