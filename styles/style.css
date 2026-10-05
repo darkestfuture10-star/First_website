@@ -1,13 +1,27 @@
 body
 {
-  background: linear-gradient(to left, lightgray, violet);
+  background-image:url(/media/3353081.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 h1
 {
+  font-family: Arial, Helvetica, sans-serif;
   border: 1px solid pink;
   border-radius:30px;
   background-color: rgb(60, 3, 94);
   color: beige;
+  text-shadow: 3px 10px black;
+  
+}
+.text
+{
+  color: cyan;
+  text-shadow: 3px 5px black;
+  word-break: keep-all;
+  text-align: center;
+  font-size: 23px;
   
 }
 .logo
@@ -18,11 +32,6 @@ h1
   justify-content:center;
   align-items: center;
   margin: 0 auto;
-}
-.text
-{
-  text-align: center;
-  font-size: 23px;
 }
 .container
 {
@@ -39,15 +48,30 @@ h1
   width: 100px; height: 100px;
   text-align: center; border-radius: 20px;
   font-size: 1em;
-  border-color: black;
+  margin:0;
+  border: none;
+}
+#button1:hover
+{
+  background: linear-gradient(to left, gray, lightgray);
 }
 #button1
 {
   background: linear-gradient(to right, rgb(160, 160, 235), rgb(156, 122, 248));
+  
+}
+#button2:hover
+{
+  background: linear-gradient(to left, gray, lightgray);
 }
 #button2
 {
   background: linear-gradient(to right, red, rgb(129, 93, 99));
+ 
+}
+#button3:hover
+{
+  background: linear-gradient(to left, gray, lightgray);
 }
 #button3
 {
