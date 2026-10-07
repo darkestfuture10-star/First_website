@@ -22,41 +22,14 @@ h1
     text-shadow: 3px 10px black;
     z-index: 1;
 }
-.navbar ul
-{
-    list-style-type: none;
-    background-color: transparent;
-    padding: none;
-    margin: none;
-    overflow: hidden;
-    border-radius: 13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    font-size: 26px;
-    z-index: 1;
-}
-.navbar a
-{
-    color: pink;
-    text-decoration: none;
-    padding: 12px;
-    display: block;
-    text-align: center;
-}
-.navbar li
-{
-    float: left;
-}
-.navbar a:hover
-{
-    background-color: transparent;
-    color: teal;
-}
 P
 {
     text-align: center;
     color: whitesmoke;
-    font: 40px;
+    text-shadow: 5px 10px 5px rgb(250, 247, 247);
+    font-size: 26px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
