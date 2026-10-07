@@ -1,0 +1,57 @@
+body
+{
+  background-image:url(/media/leyre-nW3diVSG3wQ-unsplash.jpg);
+  background-repeat:no-repeat;
+  background-size: cover, contain;
+  background-attachment: fixed;
+  background-position: center;
+}
+.logo
+{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 0 auto;
+}
+.text
+{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 28px;
+}
+.container
+{
+  position: relative;
+  transform: rotateX(45deg);
+  transform: translateY(500px);
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  transform: translate(-50px, 50px);
+}
+.button
+{
+  width: 100px; height: 100px;
+  text-align: center; border-radius: 20px;
+  font-size: 1em;
+  margin:0;
+  border: none;
+}
+.button1 
+{
+  background: radial-gradient(circle, rgb(160, 160, 235), rgb(247, 87, 225));
+}
+.button2
+{
+  background: radial-gradient(circle, red, rgb(129, 93, 99));
+}
+.button3 
+{
+  background: radial-gradient(circle, blue, rgb(169, 167, 250));
+}
+.button:hover 
+{
+ background: linear-gradient(to left, gray, lightgray);
+}
