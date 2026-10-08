@@ -29,4 +29,6 @@
 {
     background-color: transparent;
     color: teal;
+    transform: scale(1.15);
+    text-shadow: 0px 5px 5px yellow, 0px -5px 5px red;   
 }

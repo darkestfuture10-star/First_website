@@ -12,15 +12,27 @@ body {
     top: 0;
     left: 0;
 }
-h1
+.title
 {
+    margin: 0 auto;
+    width: 100%;
+    background: rgb(14, 7, 70);
+    border-radius: 30px;
     text-align: center;
-    border: 1px solid pink;
-    border-radius:30px;
-    background-color: rgb(60, 3, 94);
-    color: beige;
-    text-shadow: 3px 10px black;
-    z-index: 1;
+    color: white;
+    position: relative;
+    display: block;
+    text-shadow: 0px 5px 5px gray, 0px -5px 5px darkgray;
+}
+.title::after
+{
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle,teal,lightgreen,green,darkgreen,green,teal);
+    inset: -4px;
+    z-index: -1;
+    border-radius: 30px;
+    
 }
 P
 {
